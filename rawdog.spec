@@ -6,7 +6,6 @@ Group:          Networking/News
 License:        GPL
 URL:            http://offog.org/code/rawdog.html
 Source0:        http://offog.org/files/%{name}-%{version}.tar.bz2
-BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:      noarch
 BuildRequires:  python-devel
 %description
