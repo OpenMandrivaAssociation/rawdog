@@ -10,7 +10,6 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:      noarch
 BuildRequires:  python-devel
 %description
-
 rawdog is an RSS Aggregator Without Delusions Of Grandeur. Written in Python, 
 it uses Mark Pilgrim's feed parser to read RSS 0.9, 1.0, 2.0, CDF and Atom 
 feeds. 
