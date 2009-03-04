@@ -1,6 +1,6 @@
 Name:           rawdog
-Version:        2.11
-Release:        %mkrel 5
+Version:        2.12
+Release:        %mkrel 1
 Summary:        An RSS aggregator 
 Group:          Networking/News
 License:        GPL
