@@ -1,2 +1,4 @@
+removed_sources:
+  rawdog-2.12.tar.bz2: 28cd4541180ec190a51a7d2949fb0d9610459e40
 sources:
-  "rawdog-2.12.tar.bz2": 28cd4541180ec190a51a7d2949fb0d9610459e40
+  rawdog-2.13.tar.gz: 84f9cbcf8c4fc7a084373cfea05ffbdda156cd60

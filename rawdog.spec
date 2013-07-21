@@ -1,11 +1,11 @@
 Name:           rawdog
-Version:        2.12
-Release:        %mkrel 2
+Version:        2.13
+Release:        1
 Summary:        An RSS aggregator 
 Group:          Networking/News
 License:        GPL
 URL:            http://offog.org/code/rawdog.html
-Source0:        http://offog.org/files/%{name}-%{version}.tar.bz2
+Source0:        http://offog.org/files/%{name}-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:      noarch
 BuildRequires:  python-devel
@@ -80,4 +80,5 @@ rm -rf $RPM_BUILD_ROOT
 + Revision: 94226
 - Rebuild for new python
 - Import rawdog
+
 
