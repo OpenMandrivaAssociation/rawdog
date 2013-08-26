@@ -1,12 +1,11 @@
 Name:           rawdog
-Version:        2.13
+Version:        2.17
 Release:        1
 Summary:        An RSS aggregator 
 Group:          Networking/News
 License:        GPL
 URL:            http://offog.org/code/rawdog.html
 Source0:        http://offog.org/files/%{name}-%{version}.tar.gz
-BuildRoot:      %{_tmppath}/%{name}-%{version}-root
 BuildArch:      noarch
 BuildRequires:  python-devel
 %description
@@ -23,14 +22,9 @@ compression to minimize network bandwidth usage.
 %setup -q
 
 %install
-rm -rf $RPM_BUILD_ROOT
 python setup.py install --prefix=$RPM_BUILD_ROOT/%_prefix
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root,-)
 %doc README config NEWS PLUGINS style.css 
 %_bindir/rawdog
 %py_puresitedir/rawdoglib/
