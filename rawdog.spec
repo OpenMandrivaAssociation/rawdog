@@ -1,5 +1,5 @@
 Name:           rawdog
-Version:        2.17
+Version:        2.18
 Release:        1
 Summary:        An RSS aggregator 
 Group:          Networking/News
@@ -22,7 +22,7 @@ compression to minimize network bandwidth usage.
 %setup -q
 
 %install
-python setup.py install --prefix=$RPM_BUILD_ROOT/%_prefix
+python setup.py install --prefix=%{buildroot}/%_prefix
 
 %files
 %doc README config NEWS PLUGINS style.css 
@@ -74,5 +74,6 @@ python setup.py install --prefix=$RPM_BUILD_ROOT/%_prefix
 + Revision: 94226
 - Rebuild for new python
 - Import rawdog
+
 
 
