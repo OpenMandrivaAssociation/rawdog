@@ -1,5 +1,5 @@
 Name:           rawdog
-Version:        2.18
+Version:        2.19
 Release:        1
 Summary:        An RSS aggregator 
 Group:          Networking/News
@@ -26,10 +26,10 @@ python setup.py install --prefix=%{buildroot}/%_prefix
 
 %files
 %doc README config NEWS PLUGINS style.css 
-%_bindir/rawdog
-%py_puresitedir/rawdoglib/
-%py_puresitedir/*.egg-info
-%_mandir/man1/*
+%{_bindir}/rawdog
+%{py_puresitedir}/rawdoglib/
+%{py_puresitedir}/*.egg-info
+%{_mandir}/man1/*
 
 
 
@@ -74,6 +74,7 @@ python setup.py install --prefix=%{buildroot}/%_prefix
 + Revision: 94226
 - Rebuild for new python
 - Import rawdog
+
 
 
 
