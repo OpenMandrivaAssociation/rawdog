@@ -1,6 +1,6 @@
 Name:           rawdog
 Version:        2.19
-Release:        1
+Release:        2
 Summary:        An RSS aggregator 
 Group:          Networking/News
 License:        GPL
