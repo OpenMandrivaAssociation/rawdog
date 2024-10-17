@@ -4,7 +4,7 @@ Release:        1
 Summary:        An RSS aggregator 
 Group:          Networking/News
 License:        GPL
-URL:            http://offog.org/code/rawdog.html
+URL:            https://offog.org/code/rawdog.html
 Source0:        http://offog.org/files/%{name}-%{version}.tar.gz
 BuildArch:      noarch
 BuildRequires:  python2
